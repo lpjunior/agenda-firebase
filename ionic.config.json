@@ -1,0 +1,7 @@
+{
+  "name": "agenda-firebase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
