@@ -1,0 +1,32 @@
+1. Build o projeto
+    ionic build --prod
+
+2. Adicione o android ao projeto
+    ionic cap add android
+
+3. Baixe o Gradle
+    Baixe a versão completa extraia o conteúdo do zip para o C:/ e renomei a pasta para gradle
+    https://gradle.org/releases/
+
+4. Execute o script
+    sdkmanager.bat
+
+5. Execute o android studio
+    ionic cap run android
+
+6. Assine o APK
+    Vá em: Build -> Generate Signed Bundle/ APK...
+    Escolha APK e clique em next
+    Criando uma nova key store:
+        - Clique em Create New
+        - Selecione o path onde irá salvar a key store e defina um nome para a key
+        - Defina uma senha de pelo menos 6 digitos
+        - Em Alias coloque o mesmo nome da key que foi definidos no passo anterior
+        - Repita a senha também definida no passo anterior
+        - Preencha os dados referente a você ou sua empresa e clique em ok e em next
+    Selecione Release e clique em finish
+
+    O Android Studio começará a gerar o apk assinado, quando terminar irá aparecer um balão de notificação com um link para o caminho onde está o APK.
+
+
+
