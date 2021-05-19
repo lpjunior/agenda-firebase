@@ -1,4 +1,4 @@
-1. Build o projeto
+﻿1. Build o projeto
     ionic build --prod
 
 2. Adicione o android ao projeto
@@ -9,7 +9,7 @@
     https://gradle.org/releases/
 
 4. Execute o script
-    sdkmanager.bat
+    config_sdk.bat
 
 5. Execute o android studio
     ionic cap run android
@@ -28,5 +28,6 @@
 
     O Android Studio começará a gerar o apk assinado, quando terminar irá aparecer um balão de notificação com um link para o caminho onde está o APK.
 
-
-
+###
+    OBS: Após a geração do apk na 1ª, é necessário executar somente as etapas: 1, 5 e 6 (Não é necessário criar uma nova key stone, somente selecionar a já criada para o app)
+###
