@@ -4,17 +4,21 @@
 2. Adicione o android ao projeto
     ionic cap add android
 
-3. Baixe o Gradle
+3. Android Studio
+    Baixe e instale o android studio
+    https://developer.android.com/studio?hl=pt&gclsrc=aw.ds&gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-J8LN3zRVhIv58OfENT8DoNwq2inYej8BpCbFS5dioqacWDjC2s5xAaAhW7EALw_wcB
+
+4. Baixe o Gradle
     Baixe a versão completa extraia o conteúdo do zip para o C:/ e renomei a pasta para gradle
     https://gradle.org/releases/
 
-4. Execute o script
+5. Execute o script
     config_sdk.bat
 
-5. Execute o android studio
+6. Execute o android studio
     ionic cap run android
 
-6. Assine o APK
+7. Assine o APK
     Vá em: Build -> Generate Signed Bundle/ APK...
     Escolha APK e clique em next
     Criando uma nova key store:
@@ -29,5 +33,6 @@
     O Android Studio começará a gerar o apk assinado, quando terminar irá aparecer um balão de notificação com um link para o caminho onde está o APK.
 
 ###
-    OBS: Após a geração do apk na 1ª, é necessário executar somente as etapas: 1, 5 e 6 (Não é necessário criar uma nova key stone, somente selecionar a já criada para o app)
+    OBS1: Após a geração do apk na 1ª, é necessário executar somente as etapas: 1, 6 e 7 (Não é necessário criar uma nova key stone, somente selecionar a já criada para o app)
+    OBS2: Uma vez feita a configuração de infraestrutura(3, 4, 5) da etapa 2 pode ir direto para a etapa 6
 ###
